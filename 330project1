@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="utf-8" />
   <title>Salman Muqeet: Background and Ambitions</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" href="screen.css" />
 </head>
-<body>
+<body bgcolor="lightblue" text="red">
   <h1>Salman Muqeet: Background and Ambitions</h1>
   <p>
     My name is Salman and I am a fourth year biomedical engineering student at the Illinois Institute of Technology. Just some background, I have lived in Illinois all my life and attended a private school for 12 years before joining IIT
   </p>
   <p>
   I can not wait to use the knowledge I learn in this class to develop my own websites because it is a skill I have always wanted to learn but one that I never really was able to learn on my own.
-  <p>
+  </p>
   After college, I hope to work at a biomedical company for a few years before applying to dental school. I always wanted to learn how to develop my own unique website because I felt as though it was a necessary skill in the 21st century where websites are the new mode of communication of all sectors from entertainment, to business, to sports and beyond.
 
 </body>
