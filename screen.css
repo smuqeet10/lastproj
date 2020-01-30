@@ -54,14 +54,19 @@ html {
 }
 
 h1 {
-  font-size: 275%;
-  font-family: Andale Mono, monospace;
+  font-size: 300%;
+  font-style: oblique;
+  font-weight: bold;
   padding: .5em;
   padding-bottom: .5em;
+  color: red
 }
 p {
-  padding: .5em;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 300%
+  padding: .75em;
   padding-bottom: .5em;
-  color: red;
+  color: brown;
   text-indent: 20px;
 }
