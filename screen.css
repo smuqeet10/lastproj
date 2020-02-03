@@ -49,24 +49,41 @@ table {
 
 /* Add custom style below...*/
 html {
-  padding: .75em;
-  word-spacing: 1px;
+  padding: 1em;
+  word-spacing: 0.5px;
+
 }
 
 h1 {
   font-size: 300%;
   font-style: oblique;
-  font-weight: bold;
-  padding: .5em;
+	font-family:monospace;
+  padding: 0.5em;
+  padding-bottom: .5em;
+  color: red
+}
+h2 {
+  font-size: 200%;
+  font-style: oblique;
+	font-family:monospace;
+  padding: 0.5em;
+  padding-bottom: .5em;
+  color: red
+}
+h3 {
+  font-size: 200%;
+  font-style: oblique;
+	font-family:monospace;
+  padding: 0.5em;
   padding-bottom: .5em;
   color: red
 }
 p {
   font-weight: normal;
   font-style: normal;
-  font-size: 500%
-  padding: .75em;
-  padding-bottom: .5em;
+  font-size: 150%
+  padding: 1em;
+  padding-bottom: .75em;
   color: brown;
   text-indent: 20px;
 }
