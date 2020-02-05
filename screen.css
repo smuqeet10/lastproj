@@ -23,16 +23,14 @@ html {
 	font-style: normal;
 	font-family:'Roboto', Arial, sans-serif;
 	padding: 1.2222222em 36px;
-	padding-bottom: 3em;
 }
 body {
-	background-color:#ffcccc;
+	background-color:beige;
 }
 
 h1 {
 	font-size:1.375em; /* 22px / 16px = result */ ;
-	font-style:normal;
-	font-family:'Roboto', Arial, sans-serif;
+	font-style:oblique;
 	font-weight: bolder;
 	text-align: center;
 	padding: 0.5em;
@@ -43,7 +41,6 @@ h1 {
 h2,h3 {
   font-size:1.125em; /* 18px / 16px = result */ ;
   font-style: normal;
-	font-family:'Roboto', Arial, sans-serif;
 	font-weight:bold;
   padding: 0.444444em;
   padding-bottom: .5em;
@@ -55,6 +52,6 @@ p {
   font-size: 100%
   padding: 1em;
   padding-bottom: .75em;
-  color: #660033;
+  color: brown;
   text-indent: 20px;
 }
