@@ -30,7 +30,7 @@ body {
 
 h1 {
 	font-size:1.375em; /* 22px / 16px = result */
-	font-weight: bolder;
+	font-weight:bolder;
 	text-align: center;
 	padding: 0.5em;
 	padding-bottom: .444444em;
@@ -50,6 +50,6 @@ p {
   font-style: normal;
   padding: 1em;
   padding-bottom: .75em;
-  color: #663300;
+  color: #392613;
   text-indent: 20px;
 }
