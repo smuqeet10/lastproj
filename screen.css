@@ -14,79 +14,39 @@ ote:after,q:before,q:after{content:'';content:none}table{border-collapse:collaps
 body{
   font-family:"Helvetica Neue", Helvetica, Arial;
 }
-
-.sidebar{
-  position: fixed;
-  top:0px;
-  left:-150px;
-  width: 140px;
-  height: 100%;
-  background:  #5cd65c;
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #cc8800;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 2px solid black;
 }
 
-.sidebar header{
-  font-size: 20px;
-  color: white;
-  text-align: center;
-  line-height: 70px;
-  background: red;
-  user-select: none;
+nav li{
+    border-right: 2px solid black;
+    float: left;
 }
 
-.sidebar ul a{
-  display: block;
-  height: 100%;
-  width: 100%;
-  line-height: 50px;
-  font-size: 17px;
-  color: white;
-  padding-left: 40px;
-  box-sizing: border-box;
-  border-bottom: 0.5px solid ;
-  transition: .4s;
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-label #btn,label #cancel{
-  position: absolute;
-  cursor: pointer;
-  background: #042331;
-  border-radius: 3px;
-}
-label #btn{
-  left: 7px;
-  top: 10px;
-  font-size: 20px;
-  color: white;
-  padding: 6px 12px;
-  transition: all .5s;
+nav li a:hover {
+    background-color:  #ffdd99;
+    color: black;
 }
 
-label #cancel{
-  z-index: 1111;
-  left: -115px;
-  top: 10px;
-  font-size: 15px;
-  color: #0a5275;
-  padding: 4px 9px;
-  transition: all .5s ease;
-}
-
-#check:checked ~ .sidebar{
-  left: 0;
-}
-
-#check:checked ~ label #btn{
-  left: 150;
-  opacity: 0;
-  pointer-events: none;
-}
-
-#check:checked ~ label #cancel{
-  left: 110px;
-}
 
 html {
- background-color: #70db70;
+ background-color: #b37700;
  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
  font-size: 1.25em;
  line-height: 1.35em; /*wanted to make it have a little more space than what would normally be
@@ -149,7 +109,7 @@ img {
     margin-left: 5vw;
     margin-top: 5vh;
     margin-right: 6vw;
-    background-color: #adebad;
+    background-color: #ffdd99;
     border-radius: 1vw;
     display: flex;
     margin-bottom: 5vh;
@@ -187,14 +147,11 @@ img {
   #internships,
   #coursework,
   #experience{
-    background:  #adebad;
+    background: #ffdd99;
     text-align: center;
     border-radius: 1.5vw;
   }
-
-
-
-   h2, h6{
+   h2{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-weight: bold;
     font-size: 2em;
@@ -205,11 +162,11 @@ img {
 
   }
 
-  h3, h4, h5{
+  h3, h4, h5, h6{
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-weight: bold;
     font-size: 1em;
-    text-decoration: underline;
+    text-align: center;
   }
   @media screen and (max-width: 400px){
     .title{
@@ -240,8 +197,6 @@ img {
     padding-bottom: 1em;
   }
 }
-
-
 
   @media screen and (min-width: 950px){
     h6{
@@ -279,12 +234,11 @@ img {
     .mycontactinfo{
       padding-top: 1em;
       padding-bottom: 1em;
-      text-align: center;
+      text-align: left;
     }
 
 
     ul{
-      list-style-type: square;
-      text-align: center;
+      text-align: left;
       display: inline-block;
     }
